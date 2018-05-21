@@ -5,7 +5,7 @@ import android.view.View;
 import android.view.View.OnClickListener;
 import android.widget.Button;
 import android.widget.EditText;
-import cumt.edu.cn.cumtorder.R;
+import cumt.edu.cn.cumtordersys.R;
 import cumt.edu.cn.cumtordersys.App;
 import cumt.edu.cn.cumtordersys.entity.User;
 import cumt.edu.cn.cumtordersys.service.UserService;
