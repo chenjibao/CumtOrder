@@ -2,7 +2,9 @@ package cumt.edu.cn.cumtordersys.ui;
 
 import android.app.Activity;
 import android.app.AlertDialog;
+import android.content.Context;
 import android.content.DialogInterface;
+import android.content.Intent;
 import android.os.Bundle;
 import cumt.edu.cn.cumtordersys.App;
 import cumt.edu.cn.cumtordersys.entity.User;
@@ -43,4 +45,13 @@ public abstract class BasicActivity extends Activity {
 	 * @return 界面名称
 	 */
 	protected abstract String getName();
+	/**
+	 * 显示Activity
+	 * @param context 上下文
+	 * @param contextClass 需要显示的界面class
+	 */
+	protected void showActivity(Context context,Class<? extends Context> contextClass) {
+		Intent intent=new Intent(context, contextClass);
+		startActivity(intent);
+	}
 }

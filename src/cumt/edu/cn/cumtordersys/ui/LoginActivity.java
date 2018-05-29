@@ -52,6 +52,7 @@ public class LoginActivity extends BasicActivity {
 				App app=(App)getApplication();
 				app.user=user;
 				//TODO 转向主菜单界面
+				showActivity(LoginActivity.this, MainActivity.class);
 			}
 		});
 		
