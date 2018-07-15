@@ -1,4 +1,4 @@
-package cumt.edu.cn.cumtordersys.entity;
+package cumt.edu.cn.qq.entity;
 
 /**
  *@date:2018Äê5ÔÂ21ÈÕ

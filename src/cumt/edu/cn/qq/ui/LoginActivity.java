@@ -1,14 +1,14 @@
-package cumt.edu.cn.cumtordersys.ui;
+package cumt.edu.cn.qq.ui;
 
 import android.os.Bundle;
 import android.view.View;
 import android.view.View.OnClickListener;
 import android.widget.Button;
 import android.widget.EditText;
+import cumt.edu.cn.cjb.qqlogin.App;
 import cumt.edu.cn.cumtordersys.R;
-import cumt.edu.cn.cumtordersys.App;
-import cumt.edu.cn.cumtordersys.entity.User;
-import cumt.edu.cn.cumtordersys.service.UserService;
+import cumt.edu.cn.qq.entity.User;
+import cumt.edu.cn.qq.service.UserService;
 
 /**
  *@date:2018Äê5ÔÂ21ÈÕ

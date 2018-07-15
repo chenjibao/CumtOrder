@@ -9,7 +9,7 @@
 	    android:id="@+id/codeEdt"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
-        android:hint="请输入编号"
+        android:hint="请输入账号"
         android:singleLine="true"
 	    />
 	

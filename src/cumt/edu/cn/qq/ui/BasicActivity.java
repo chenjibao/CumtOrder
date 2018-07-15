@@ -1,4 +1,4 @@
-package cumt.edu.cn.cumtordersys.ui;
+package cumt.edu.cn.qq.ui;
 
 import android.app.Activity;
 import android.app.AlertDialog;
@@ -6,8 +6,8 @@ import android.content.Context;
 import android.content.DialogInterface;
 import android.content.Intent;
 import android.os.Bundle;
-import cumt.edu.cn.cumtordersys.App;
-import cumt.edu.cn.cumtordersys.entity.User;
+import cumt.edu.cn.cjb.qqlogin.App;
+import cumt.edu.cn.qq.entity.User;
 
 /**
  *@date:2018Äê5ÔÂ21ÈÕ

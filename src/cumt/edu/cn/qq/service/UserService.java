@@ -1,6 +1,6 @@
-package cumt.edu.cn.cumtordersys.service;
+package cumt.edu.cn.qq.service;
 
-import cumt.edu.cn.cumtordersys.entity.User;
+import cumt.edu.cn.qq.entity.User;
 
 /**
  *@date:2018年5月21日
@@ -14,15 +14,14 @@ public class UserService {
 	 * @return 用户对象
 	 */
 	public User login(String usercode,String password) {
-		if("test".equals(usercode) && "test".equals(password)) {
+		if("admin".equals(usercode) && "admin".equals(password)) {
 			User user=new User();
 			user.setUserid(1);
 			user.setUsercode(usercode);
 			user.setPassword(password);
-			user.setUsername("张王李赵");
+			user.setUsername("陈继宝");
 			return user;
 		}
 		return null;
-		
 	}
 }

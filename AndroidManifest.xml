@@ -7,19 +7,19 @@
         android:minSdkVersion="14"
         android:targetSdkVersion="22" />
     <application
-        android:name=".App"
-        android:icon="@drawable/ic_launcher"
-        android:logo="@drawable/coffee"
+        android:name="cumt.edu.cn.cjb.qqlogin.App"
+        android:icon="@drawable/qq"
+        android:logo="@drawable/qq"
         android:label="@string/app_name"
         android:theme="@style/AppTheme" >
         <activity
-            android:name=".ui.LoginActivity">
+            android:name="cumt.edu.cn.qq.ui.LoginActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".ui.MainActivity"></activity>
+        <activity android:name="cumt.edu.cn.qq.ui.MainActivity"></activity>
     </application>
 
 </manifest>
